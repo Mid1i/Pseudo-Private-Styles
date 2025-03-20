@@ -9,11 +9,11 @@
 			text="Глубина шторма"
 		/>
 		<ProductCard
-			custom-class="new"
+			:custom-style="{ '--bg-color': '#2E9AFF', '--size': '250px' }"
 			text="Электро-лазурь"
 		/>
 		<ProductCard
-			custom-class="top"
+			:custom-style="{ '--bg-color': '#F498AD' }"
 			text="Сахарская вата"
 		/>
 	</div>
