@@ -5,17 +5,21 @@
 
 <template>
 	<div class="container">
-		<ProductCard 
-			text="Глубина шторма"
-		/>
-		<ProductCard
-			:custom-style="{ '--bg-color': '#2E9AFF', '--size': '250px' }"
-			text="Электро-лазурь"
-		/>
-		<ProductCard
-			:custom-style="{ '--bg-color': '#F498AD' }"
-			text="Сахарская вата"
-		/>
+		<div class="product-row first">
+			<ProductCard 
+				text="Глубина шторма"
+			/>
+		</div>
+		<div class="product-row second">
+			<ProductCard
+				text="Электро-лазурь"
+			/>
+		</div>
+		<div class="product-row third">
+			<ProductCard
+				text="Сахарская вата"
+			/>
+		</div>
 	</div>
 </template>
 
@@ -28,5 +32,15 @@
 		gap: 50px;
 		height: 100%;
 		width: 100%;
+	}
+
+	.product-row {
+		&.second {
+			--bg-color: #2E9AFF;
+			--size: 250px;
+		}
+		&.third {
+			--bg-color: #F498AD;
+		}
 	}
 </style>
