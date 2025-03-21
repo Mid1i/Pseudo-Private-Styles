@@ -6,19 +6,13 @@
 <template>
 	<div class="container">
 		<div class="product-row first">
-			<ProductCard 
-				text="Глубина шторма"
-			/>
+			<ProductCard text="Глубина шторма"/>
 		</div>
 		<div class="product-row second">
-			<ProductCard
-				text="Электро-лазурь"
-			/>
+			<ProductCard text="Электро-лазурь"/>
 		</div>
 		<div class="product-row third">
-			<ProductCard
-				text="Сахарская вата"
-			/>
+			<ProductCard text="Сахарская вата"/>
 		</div>
 	</div>
 </template>
